@@ -19,13 +19,13 @@ describe("Player", function () {
 
   it("should have a hand", function(){
     const result = player.hand.length;
-    assert.strictEqual(result, 0);
+    assert.deepStrictEqual(result, 0);
   });
 
   it("should be able to add card to hand", function(){
     player.addCard(card);
     const result = player.hand.length;
-    assert.strictEqual(result, 1);
+    assert.deepStrictEqual(result, 1);
   })
 
 });

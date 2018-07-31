@@ -27,4 +27,9 @@ describe("Game", function () {
     const result = game.player2.name;
     assert.strictEqual(result, "Iona");
   });
+
+  it("should have a deck", function () {
+    const result = game.deck.length;
+    assert.deepStrictEqual(result, 0);
+  });
 });
