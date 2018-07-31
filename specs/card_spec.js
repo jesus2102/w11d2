@@ -13,4 +13,8 @@ let card;
     const result = card.name;
     assert.strictEqual(result, "Superman");
   });
+  it("should have intelligence", function () {
+    const result = card.intelligence;
+    assert.strictEqual(result, 6);
+  });
 });
