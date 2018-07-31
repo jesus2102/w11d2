@@ -17,4 +17,8 @@ let card;
     const result = card.intelligence;
     assert.strictEqual(result, 6);
   });
+  it("should have strength", function () {
+    const result = card.strength;
+    assert.strictEqual(result, 9);
+  });
 });
