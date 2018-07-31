@@ -32,4 +32,5 @@ describe("Game", function () {
     const result = game.deck.length;
     assert.deepStrictEqual(result, 0);
   });
+
 });
