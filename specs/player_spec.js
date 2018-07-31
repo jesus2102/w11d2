@@ -16,4 +16,9 @@ describe("Player", function () {
     const result = player.name;
     assert.strictEqual(result, "Jesus");
   });
+
+  it("should have a hand", function(){
+    const result = player.hand.length;
+    assert.strictEqual(result, 0);
+  });
 });
