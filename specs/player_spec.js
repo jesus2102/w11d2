@@ -27,4 +27,5 @@ describe("Player", function () {
     const result = player.hand.length;
     assert.strictEqual(result, 1);
   })
+
 });
