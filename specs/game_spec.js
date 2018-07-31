@@ -23,4 +23,8 @@ describe("Game", function () {
     const result = game.player1.name;
     assert.strictEqual(result, "Jesus");
   });
+  it("should have player2", function () {
+    const result = game.player2.name;
+    assert.strictEqual(result, "Iona");
+  });
 });
