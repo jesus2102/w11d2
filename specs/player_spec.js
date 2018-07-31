@@ -21,4 +21,10 @@ describe("Player", function () {
     const result = player.hand.length;
     assert.strictEqual(result, 0);
   });
+
+  it("should be able to add card to hand", function(){
+    player.addCard(card);
+    const result = player.hand.length;
+    assert.strictEqual(result, 1);
+  })
 });
