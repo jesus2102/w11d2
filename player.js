@@ -7,6 +7,10 @@ Player.prototype.addCard = function(card){
   this.hand.push(card);
 }
 
+Player.prototype.selectCard = function () {
+  return this.hand[0]
+}
+
 Player.prototype.selectCategory = function (category) {
   if(category === "Intelligence"){
     return this.hand[0].intelligence

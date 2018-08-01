@@ -28,6 +28,11 @@ describe("Player", function () {
     assert.deepStrictEqual(result, 1);
   })
 
+  it("select a card", function () {
+    player.addCard(card);
+    const result = player.selectCard()
+    assert.deepStrictEqual(result, card);
+  });
   it("select category", function(){
     player.addCard(card);
     const result = player.selectCategory("Strength");
